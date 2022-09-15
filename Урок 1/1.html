@@ -21,9 +21,10 @@
 -->
 <script>
   "use strict";
-  let temp = Number(prompt('Введите температуру'));
-  let fah = (temp * (9 / 5) + 32).toFixed(0);
-  alert(`Цельсий: ${temp}\nФаренгейт: ${fah}`)
+
+  const temp = Number(prompt('Введите температуру'));
+  const fah = (temp * (9 / 5) + 32);
+  alert(`Цельсий: ${temp}\nФаренгейт: ${fah.toFixed(0)}`);
   
 </script>
 </body>
